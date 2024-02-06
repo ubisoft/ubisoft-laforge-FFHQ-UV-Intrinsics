@@ -1,4 +1,4 @@
-
+(c) Ubisoft 2024
 ## FFHQ-UV-Intrinsics dataset
 This GitHub repository hosts **FFHQ-Intrinsic** that contains intrinsics texture maps for 10K subjects. This dataset was obtained by applying [MoSAR](https://ubisoft-laforge.github.io/character/mosar/) on the [FFHQ-UV](https://github.com/csbhr/FFHQ-UV) dataset.
 To obtain the intrinsic face attributes, we first re-targeted the texture maps from [FFHQ-UV](https://github.com/csbhr/FFHQ-UV) to our own topology and resize them to 512x512. Next, we apply MoSAR to obtain the light normalization and intrinsic texture maps estimation. We then upscale these texture maps to 1K resolution and retarget them back to their original topology.
@@ -20,5 +20,5 @@ This dataset was built from  MoSAR model. If you use this datase please cite the
   journal   = {ArXiv},
   year      = {2023},
 }
-
+(c) Ubisoft 2024
 
