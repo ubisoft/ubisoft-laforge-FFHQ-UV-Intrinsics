@@ -7,7 +7,7 @@ The resulting dataset, **FFHQ-Intrinsic**, is being publicly released for the re
 **The dataset contains diffuse, specular, ambient occlusion, translucency and normal maps for 10K subjects**.
 
 This is the first dataset that offer rich intrinsic face attributes at high resolution and at large scale, with the aim of advancing research in this field.
-![Dataset Examples](https://ubisoft-laforge.github.io/character/mosar/static/mosar/ffhq-intrinsics.png)
+![Dataset Examples](./ffhq_intrinsics.png)
 
 ## Download
 Once you've downloaded and extracted the file, you'll find that it's organized with a separate folder for each subject. Inside these folders are the intrinsic attributes of each subject's face.
