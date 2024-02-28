@@ -2,7 +2,7 @@
 ## FFHQ-UV-Intrinsics dataset
 This GitHub repository hosts the **FFHQ-UV-Intrinsic** dataset, that contains intrinsics texture maps for 10K subjects. This dataset was obtained by applying [MoSAR](https://ubisoft-laforge.github.io/character/mosar/) on the [FFHQ-UV](https://github.com/csbhr/FFHQ-UV) dataset.
 
-To obtain the intrinsic face attributes, we first re-targeted the texture maps from [FFHQ-UV](https://github.com/csbhr/FFHQ-UV) to our own topology and resized them to 512x512. Next, we applied MoSAR to obtain the light normalization and intrinsic texture maps. We then upscaled these texture maps to 1K resolution and retargeted them back to their original topology.
+To obtain the intrinsic face attributes, we first re-targeted the texture maps from FFHQ-UV to our own topology and resized them to 512x512. Next, we applied MoSAR to obtain the light normalization and intrinsic texture maps. We then upscaled these texture maps to 1K resolution and retargeted them back to their original topology.
 The resulting dataset, **FFHQ-UV-Intrinsics**, is being publicly released for the research community under Creative Commons Attribution-NonCommercial-NoDerivatives license. 
 
 **The dataset contains diffuse, specular, ambient occlusion, translucency and normal maps for 10K subjects**.
@@ -24,7 +24,7 @@ To download the dataset, simply clone this repo (make sure you have Git LFS inst
 Once you extract the zip files, you'll find the dataset structured as follows:
 ```
 Data\
-    ######\
+    <##ID>\
           ambient_occlusion.png
           diffuse.png
           normal.png
@@ -34,6 +34,8 @@ Data\
     ....
     
 ```
+
+The IDs on this dataset are the same as the IDs in [FFHQ-UV](https://github.com/csbhr/FFHQ-UV).
 
 Refer to the [paper](https://arxiv.org/abs/2312.13091) for more technical details on these maps.
 
