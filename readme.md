@@ -11,7 +11,7 @@ This is the first dataset that offer rich intrinsic face attributes at high reso
 <p align="center">
 <img src="./Data/ffhq-intrinsics-portrait.png" style="width:80%">
    <p align="center">
-  <em>Figure 1. For each inpute texture from FFHQ-UV (first column), we provide the light normalized, diffuse, specular, normal, ambient occlusion and translucency maps at 1K resolution </em>
+  <em>Figure 1. For each input texture from FFHQ-UV (first column), we provide the light normalized, diffuse, specular, normal, ambient occlusion and translucency maps at 1K resolution for 10K subjects</em>
       </p>
 </p>
 
