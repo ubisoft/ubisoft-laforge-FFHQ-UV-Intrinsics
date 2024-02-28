@@ -16,7 +16,8 @@ This is the first dataset that offer rich intrinsic face attributes at high reso
 </p>
 
 ## Download
-Once you've downloaded and extracted the file, you'll find that it's organized with a separate folder for each subject. Inside these folders are the intrinsic attributes of each subject's face.
+The dataset is accessible in multiple zip files in the Data folder. You have the option to download each zip file individually or clone the entire project to obtain the complete dataset. Please note that cloning may take a significant amount of time depending on your internet connection speed.
+Once you've downloaded and extracted the file, you'll find that it's organized with a separate folder for each subject. Inside these folders are the intrinsic attributes of each subject's face (refer to Figure 1 in readme and to [MoSAR](https://ubisoft-laforge.github.io/character/mosar/)  paper for more details on these maps).
 
 ## Use with [FLAME](https://flame.is.tue.mpg.de/) topology
 The current texture maps are registred in the Hifi3D topology (https://github.com/czh-98/REALY/tree/master/HIFI3D%2B%2B). If you want to use these texture with Flame model. Please refer to this tutorial:  https://github.com/csbhr/FFHQ-UV/blob/main/README_flame2hifi3d.md
