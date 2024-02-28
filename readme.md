@@ -39,5 +39,9 @@ This dataset was built using MoSAR model. If you use this datase please cite the
 }
 ```
 
+## License 
+
+**FFHQ-Intrinsic** can only be used for research purpose. Please refer to the license.txt file for more details. 
+
 © [2023] Ubisoft Entertainment. All Rights Reserved
 
