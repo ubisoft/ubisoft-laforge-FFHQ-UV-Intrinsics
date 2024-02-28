@@ -20,13 +20,13 @@ The dataset is accessible in multiple zip files in the Data folder. You have the
 Once you've downloaded and extracted the file, you'll find that it's organized with a separate folder for each subject. Inside these folders are the intrinsic attributes of each subject's face (refer to Figure 1 in the Readme.md and to [MoSAR](https://ubisoft-laforge.github.io/character/mosar/)  paper for more technical details on these maps).
 
 ## Use with [FLAME](https://flame.is.tue.mpg.de/) topology
-The current texture maps are registred in the Hifi3D topology (https://github.com/czh-98/REALY/tree/master/HIFI3D%2B%2B). If you want to use these texture with Flame model. Please refer to this tutorial:  https://github.com/csbhr/FFHQ-UV/blob/main/README_flame2hifi3d.md
+The current texture maps are registred in the Hifi3D topology (https://github.com/czh-98/REALY/tree/master/HIFI3D%2B%2B). If you want to use these textures with Flame model. Please refer to this tutorial:  https://github.com/csbhr/FFHQ-UV/blob/main/README_flame2hifi3d.md
 
 ## Use with [Basel](https://faces.dmi.unibas.ch/bfm/index.php?nav=1-1-0&id=details) topology 
-We will add retargeting script of the the dataset textures to  Basel topology. 
+We will add retargeting script of the the dataset textures to Basel topology. 
 
 ## Blender render
-We will provide a blender script to render these textures maps in blender 3D.
+We will provide a blender script to render these textures  in blender 3D.
 
 ## Cite
 This dataset was built using MoSAR model. If you use this datase please cite the following work: 
@@ -42,7 +42,7 @@ This dataset was built using MoSAR model. If you use this datase please cite the
 
 ## License 
 
-**FFHQ-Intrinsic** can only be used for research purpose. Please refer to the license.txt file for more details. 
+**FFHQ-UV-Intrinsics** can only be used for research purpose. Please refer to the license.txt file for more details. 
 
 © [2023] Ubisoft Entertainment. All Rights Reserved
 
