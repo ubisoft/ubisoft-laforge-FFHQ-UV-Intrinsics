@@ -10,8 +10,9 @@ This is the first dataset that offer rich intrinsic face attributes at high reso
 
 <p align="center">
 <img src="./Data/ffhq-intrinsics-portrait.png" style="width:80%">
-   
+   <p align="center">
   <em>Figure 1. For each inpute texture from FFHQ-UV (first column), we provide the light normalized, diffuse, specular, normal, ambient occlusion and translucency maps at 1K resolution </em>
+      </p>
 </p>
 
 ## Download
@@ -22,6 +23,9 @@ The current texture maps are registred in the Hifi3D topology (https://github.co
 
 ## Use with [Basel](https://faces.dmi.unibas.ch/bfm/index.php?nav=1-1-0&id=details) topology 
 We will add retargeting script of the the dataset textures to  Basel topology. 
+
+## Blender render
+We will provide a blender script to render these textures maps in blender 3D.
 
 ## Cite
 This dataset was built using MoSAR model. If you use this datase please cite the following work: 
