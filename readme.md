@@ -8,9 +8,9 @@ The resulting dataset, **FFHQ-Intrinsic**, is being publicly released for the re
 
 This is the first dataset that offer rich intrinsic face attributes at high resolution and at large scale, with the aim of advancing research in this field.
 
-
-<img src="./Data/ffhq_intrinsics.png" style="width:60%">
-
+<p align="center">
+<img src="./Data/ffhq-intrinsics-portrait.png" style="width:60%">
+</p>
 ## Download
 Once you've downloaded and extracted the file, you'll find that it's organized with a separate folder for each subject. Inside these folders are the intrinsic attributes of each subject's face.
 
