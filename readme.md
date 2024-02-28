@@ -40,11 +40,8 @@ Refer to the [paper](https://arxiv.org/abs/2312.13091) for more technical detail
 ## Using these textures with the [FLAME](https://flame.is.tue.mpg.de/) topology
 The current texture maps are registred in the Hifi3D topology (https://github.com/czh-98/REALY/tree/master/HIFI3D%2B%2B). If you want to use these textures with Flame model. Please refer to this tutorial:  https://github.com/csbhr/FFHQ-UV/blob/main/README_flame2hifi3d.md
 
-## Use with [Basel](https://faces.dmi.unibas.ch/bfm/index.php?nav=1-1-0&id=details) topology 
-We will add retargeting script of the the dataset textures to Basel topology. 
-
-## Blender render
-We will provide a blender script to render these textures  in blender 3D.
+## Blender scene
+We will provide a blender scene to render these textures.
 
 ## Cite
 This dataset was built using the MoSAR model. If you use this datase please cite the following work: 
