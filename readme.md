@@ -1,7 +1,8 @@
 © [2023] Ubisoft Entertainment. All Rights Reserved
 ## FFHQ-UV-Intrinsics dataset
-This GitHub repository hosts **FFHQ-Intrinsic** that contains intrinsics texture maps for 10K subjects. This dataset was obtained by applying [MoSAR](https://ubisoft-laforge.github.io/character/mosar/) on the [FFHQ-UV](https://github.com/csbhr/FFHQ-UV) dataset.
-To obtain the intrinsic face attributes, we first re-targeted the texture maps from [FFHQ-UV](https://github.com/csbhr/FFHQ-UV) to our own topology and resize them to 512x512. Next, we apply MoSAR to obtain the light normalization and intrinsic texture maps estimation. We then upscale these texture maps to 1K resolution and retarget them back to their original topology.
+This GitHub repository hosts the **FFHQ-UV-Intrinsic** dataset, that contains intrinsics texture maps for 10K subjects. This dataset was obtained by applying [MoSAR](https://ubisoft-laforge.github.io/character/mosar/) on the [FFHQ-UV](https://github.com/csbhr/FFHQ-UV) dataset.
+
+To obtain the intrinsic face attributes, we first re-targeted the texture maps from [FFHQ-UV](https://github.com/csbhr/FFHQ-UV) to our own topology and resized them to 512x512. Next, we applied MoSAR to obtain the light normalization and intrinsic texture maps. We then upscaled these texture maps to 1K resolution and retargeted them back to their original topology.
 The resulting dataset, **FFHQ-UV-Intrinsics**, is being publicly released for the research community under Creative Commons Attribution-NonCommercial-NoDerivatives license. 
 
 **The dataset contains diffuse, specular, ambient occlusion, translucency and normal maps for 10K subjects**.
@@ -16,10 +17,27 @@ This is the first dataset that offer rich intrinsic face attributes at high reso
 </p>
 
 ## Download
-The dataset is accessible in multiple zip files in the Data folder. You have the option to download each zip file individually or clone the entire project to obtain the complete dataset. Please note that cloning may take a significant amount of time depending on your internet connection speed.
-Once you've downloaded and extracted the file, you'll find that it's organized with a separate folder for each subject. Inside these folders are the intrinsic attributes of each subject's face (refer to Figure 1 in the Readme.md and to [MoSAR](https://ubisoft-laforge.github.io/character/mosar/)  paper for more technical details on these maps).
+The dataset is stored in this repo with [Git LFS](https://git-lfs.com/). 
 
-## Use with [FLAME](https://flame.is.tue.mpg.de/) topology
+To download the dataset, simply clone this repo (make sure you have Git LFS installed). Please note that cloning may take a significant amount of time depending on your internet connection speed.
+
+Once you extract the zip files, you'll find the dataset structured as follows:
+```
+Data\
+    ######\
+          ambient_occlusion.png
+          diffuse.png
+          normal.png
+          specular.png
+          translucency.png
+          light_normalized.png
+    ....
+    
+```
+
+Refer to the [paper](https://arxiv.org/abs/2312.13091) for more technical details on these maps.
+
+## Using these textures with the [FLAME](https://flame.is.tue.mpg.de/) topology
 The current texture maps are registred in the Hifi3D topology (https://github.com/czh-98/REALY/tree/master/HIFI3D%2B%2B). If you want to use these textures with Flame model. Please refer to this tutorial:  https://github.com/csbhr/FFHQ-UV/blob/main/README_flame2hifi3d.md
 
 ## Use with [Basel](https://faces.dmi.unibas.ch/bfm/index.php?nav=1-1-0&id=details) topology 
@@ -29,14 +47,14 @@ We will add retargeting script of the the dataset textures to Basel topology.
 We will provide a blender script to render these textures  in blender 3D.
 
 ## Cite
-This dataset was built using MoSAR model. If you use this datase please cite the following work: 
+This dataset was built using the MoSAR model. If you use this datase please cite the following work: 
 
 ```
 @article{dib2023mosar,
-  author    = {Dib, Abdallah and Hafemann, Luiz Gustavo and Got, Emeline and Anderson, Trevor and Fadaeinejad, Amin and Cruz, Rafale M.O and Carbonneau, Marc-André},
+  author    = {Dib, Abdallah and Hafemann, Luiz G. and Got, Emeline and Anderson, Trevor and Fadaeinejad, Amin and Cruz, Rafael M.O and Carbonneau, Marc-André},
   title     = {MoSAR: Monocular Semi-Supervised Model For Avatar Reconstruction Using Differentiable Shading},
   journal   = {ArXiv},
-  year      = {2023},
+  year      = {2024},
 }
 ```
 
