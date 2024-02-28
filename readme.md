@@ -49,10 +49,10 @@ We will provide a blender scene to render these textures.
 This dataset was built using the MoSAR model. If you use this datase please cite the following work: 
 
 ```
-@article{dib2023mosar,
+@article{dib2024mosar,
   author    = {Dib, Abdallah and Hafemann, Luiz G. and Got, Emeline and Anderson, Trevor and Fadaeinejad, Amin and Cruz, Rafael M.O and Carbonneau, Marc-André},
   title     = {MoSAR: Monocular Semi-Supervised Model For Avatar Reconstruction Using Differentiable Shading},
-  journal   = {ArXiv},
+  journal   = {arXiv preprint arXiv:2312.13091},
   year      = {2024},
 }
 ```
