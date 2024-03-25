@@ -10,7 +10,7 @@ The resulting dataset, **FFHQ-UV-Intrinsics**, is being publicly released for th
 This is the first dataset that offer rich intrinsic face attributes at high resolution and at large scale, with the aim of advancing research in this field.
 
 <p align="center">
-<img src="./Data/ffhq-intrinsics-portrait.png" style="width:80%">
+<img src="./Data/dataset_example.jpg" style="width:80%">
    <p align="center">
   <em>Figure 1. For each input texture from FFHQ-UV (first column), we provide the light normalized, diffuse, specular, normal, ambient occlusion and translucency maps at 1K resolution for 10K subjects</em>
       </p>
